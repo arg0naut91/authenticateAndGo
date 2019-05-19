@@ -276,8 +276,9 @@ h1 {
 .logoutButton {
   display: block;
   margin: 1rem auto;
-  font-size: 6vh;
+  font-size: 3vh;
   font-family: 'Amatic SC';
+  font-weight: bold;
   padding: .5rem 2rem;
   background: #faff66;
   border: 1px solid #faff66;
