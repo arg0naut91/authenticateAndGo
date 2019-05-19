@@ -1,0 +1,63 @@
+<html>
+	<header>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+			<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" rel="stylesheet">
+				<link rel="stylesheet" type="text/css" href="../templates/css/index.css">
+				</header>
+				<div class="container">
+					<div class="side-1">
+						<div class="header">
+							<h2 class="h-main">Welcome back!</h2>
+							<p class="h-sec">Please login with your username & password</p>
+							<button class="toggle-log">SIGN UP</button>
+						</div>
+					</div>
+					<div class="side-2">
+						<div class="header">
+							<h2 class="h-main">New to the site?</h2>
+							<p class="h-sec">Enter your personal details and start today!</p>
+							<button class="toggle-log">SIGN IN</button>
+						</div>
+					</div>
+					<div class="forms">
+						<div class="sign-up">
+							<div class="form">
+								<fieldset class="block">
+									<h2 class="form-h">Sign up</h2>
+									<div class="log-buttons">
+										<a class="log-btn log-fb" href="/loginFB"></a>
+										<a class="log-btn log-gp" href="/loginGoogle"></a>
+										<a class="log-btn log-github" href="/loginGH"></a>
+									</div>
+									<form class="email-signup" method="post" action="/register">
+										<input class="input-text" placeholder="Username" type="text" name="username" required/>
+										<input class="input-text" placeholder="Email" email="email" type="email" name="emailsignup" required/>
+										<input class="input-text" placeholder="Password" password="password" type="password" name="passwordsignup" required/>
+										<input class="input-text" placeholder="Confirm Password" password="confirmpass" type="password" name="passwordconfirm" required/>
+										<input class="input-submit" type="submit" value="SIGN UP"/>
+									</form>
+								</fieldset>
+							</div>
+						</div>
+						<div class="sign-in">
+							<div class="form">
+								<fieldset>
+									<h2 class="form-h">Sign in</h2>
+									<div class="log-buttons">
+										<a class="log-btn log-fb" href="/loginFB"></a>
+										<a class="log-btn log-gp" href="/loginGoogle"></a>
+										<a class="log-btn log-github" href="/loginGH"></a>
+									</div>
+									<form class="email-login" method="post" action="/login">
+										<input class="input-text" placeholder="Username" type="text" name="name" required/>
+										<input class="input-text" placeholder="Password" type="password" name="password" required/>
+										<input class="input-submit" type="submit" value="SIGN IN"/>
+									</form>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+				<script type="text/javascript" src="../templates/js/index.js"></script>
+			</html>
